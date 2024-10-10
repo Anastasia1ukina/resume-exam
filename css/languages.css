@@ -16,7 +16,6 @@
 
 .languages__item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -38,8 +37,15 @@
 
 .languages__item-progress {
   display: block;
-  background-color: #28d979;
-  width: 100%;
+  background-color: #b962ec;
   height: 11px;
   border-radius: 3px;
+}
+
+.languages__item-progress--1 {
+  width: 100%;
+}
+
+.languages__item-progress--2 {
+  width: 45%;
 }
